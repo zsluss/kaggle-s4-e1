@@ -2,16 +2,9 @@ To get started:
 
 clone the repository
 
-`cd models`
+Activate virtual environment:
+`env/Scripts/activate.bat //In CMD`
+`env/Scripts/Activate.ps1 //In Powershel`
 
-To install the packages:
-`poetry install`
-
-To add a package:
-`poetry add [package name]`
-
-To create and enter virtual environement:
-`poetry shell`
-
-To exit virtual environment:
-`exit`
+To install packages:
+`pip install -r requirements.txt`
